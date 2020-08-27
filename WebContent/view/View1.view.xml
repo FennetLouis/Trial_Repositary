@@ -22,7 +22,15 @@
 						<!--		</ColumnListItem>-->
 						<!--	</items>-->
 						<!--</Table>-->
+						<List  headerText="File List"
+							items="{
+							path : 'CustomerModel>/results' 
 						
+							}" >
+							<items>
+								<StandardListItem type ="Active" title="{CustomerModel>Filename}" description="{CustomerModel>Mimetype}" />
+							</items>
+						</List>
 						<!--<VBox>-->
 						<!--	<Label text="Drop Down List " design="Bold"/>-->
 						<!--	<ComboBox items="{CustomerModel>/results}">-->
