@@ -14,7 +14,7 @@ sap.ui.define([
 			
 			var t = this;
 			var wind = this.getOwnerComponent().getModel("Model1");
-			wind.read("/AttachmentSet", {
+			wind.read("/Attachmen", {
 				filters: ofilter,
 				success: function (odata) {
 					var cm = t.getOwnerComponent().getModel("CustomerModel");
